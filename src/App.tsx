@@ -4,7 +4,7 @@ import SignUp from './pages/singup';
 
 function App() {
   return (
-    <div className='bg-custom-bg text-white'>
+    <div className='bg-bg-gradient text-white'>
       <BrowserRouter>
         <Routes>
             <Route path="/" element={<SignIn />} />

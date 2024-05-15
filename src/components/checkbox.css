@@ -4,7 +4,7 @@
     padding-left: 35px;
     margin-bottom: 12px;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 17px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -26,7 +26,6 @@
     top: 0;
     left: 0;
     border: 1px solid;
-    border-color: linear-gradient(108.87deg, rgba(255, 255, 255, 0.8) 0.66%, rgba(211, 211, 211, 0.1) 99.48%);
     height: 25px;
     width: 25px;
     background-color: linear-gradient(109.46deg, rgba(201, 201, 201, 0.48) 1.57%, rgba(196, 196, 196, 0.1) 100%);
@@ -51,10 +50,10 @@
   
   /* Style the checkmark/indicator */
   .container .checkmark:after {
-    left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 15px;
+    left: 7px;
+    top: 1px;
+    width: 10px;
+    height: 20px;
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);

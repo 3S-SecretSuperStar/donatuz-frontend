@@ -4,8 +4,8 @@ import { ICheckboxInterface } from '../type';
 const CheckBoxCom = ({text} : ICheckboxInterface) => {
     return (
         <label className="container">{text}
-            <input type="checkbox" />
-            <span className="checkmark"></span>
+            <input type="checkbox" checked readOnly/>
+            <span className="checkmark shadow-lg"></span>
         </label>
     );
 }

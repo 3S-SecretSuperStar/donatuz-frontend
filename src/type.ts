@@ -4,7 +4,8 @@ export interface IUserInterface {
 
 export interface IButtonInterface {
     bgColor: string,
-    text: string
+    text: string,
+    icon?: string
 }
 
 export interface ICheckboxInterface {
